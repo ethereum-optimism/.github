@@ -4,11 +4,22 @@
 
 Please see Releases. We recommend to use the most recent released version.  
 
-## Reporting a Vulnerability
+## Disclosing a Vulnerability
 
-**Please do not file a public ticket** mentioning the vulnerability.
+### The wrong way to disclose
 
-Email security@optimism.io to disclose a vulnerability.
+The following actions: will disqualify you from eligibility under our forthcoming bug bounty program:
+
+1. File a public ticket mentioning the vulnerability
+2. Test the vulnerability on the mainnet or testnet
+
+### The right way to disclose
+
+Please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability. 
+
+### Bounty Program (coming soon)
+
+We will be launching a bounty program very soon, focused primarily on our deployed [smart contracts](https://github.com/ethereum-optimism/contracts-v2/releases/tag/v0.1.3). Any vulnerability reports received prior to the launch of this program will be considered for a payout within that program.
 
 The following key may be used to communicate sensitive information to developers.
 
