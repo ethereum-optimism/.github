@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+<!--
+Need help?
+Refer to our contributing guidelines for additional information about making a good issue:
+https://github.com/ethereum-optimism/.github/blob/master/CONTRIBUTING.md
+-->
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
