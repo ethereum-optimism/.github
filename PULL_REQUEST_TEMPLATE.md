@@ -1,3 +1,9 @@
+<!--
+Need help?
+Refer to our contributing guidelines for additional information about making a good pull request:
+https://github.com/ethereum-optimism/.github/blob/master/CONTRIBUTING.md
+-->
+
 **Description**
 A clear and concise description of the features you're adding in this pull request.
 
