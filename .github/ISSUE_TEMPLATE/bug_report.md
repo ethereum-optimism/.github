@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+<!--
+Need help?
+Refer to our contributing guidelines for additional information about making a good issue:
+https://github.com/ethereum-optimism/.github/blob/master/CONTRIBUTING.md
+-->
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
