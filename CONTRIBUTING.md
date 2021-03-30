@@ -1,16 +1,15 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+🚨 Before making any non-trivial change, please first open an issue describing the change to solicit feedback and guidance. This will increase the likelihood of the PR getting merged.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
-1. Ensure that tests pass and code is lint free: `npm test`
+1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
 2. Update the README.md if any changes invalidate its current content.
-3. Include any tests for new functionality.
-4. Reference any revelant issues in your PR comment.
+3. Include tests for any new functionality.
+4. Reference relevant issues in your PR comment.
 
 ## Code of Conduct
 
