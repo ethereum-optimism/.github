@@ -4,12 +4,44 @@
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Pull Request Process
+# Pull Request Process
+
+## Steps for the PR author
 
 1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
-2. Update the README.md if any changes invalidate its current content.
+2. Update the README.md if any changes invalidate or extend its current content.
 3. Include tests for any new functionality.
 4. Reference relevant issues in your PR comment.
+
+Unless your PR is ready for immediate review and merging, please mark it as 'draft' (or simply do not open a PR yet).
+
+## Steps for PR Reviewers
+
+We distinguish between two classes of PR, those wich modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
+
+### 1. PRs which modify production code
+
+The reviewer's job is to check that the PR: 
+
+1. Conforms to the specification (WIP, not yet public), or has an issue describing the additional functionality which a code owner has approved.
+2. Is appropriately tested.
+3. Does not introduce security issues.
+
+After a code owner reviews and approves a PR, they should either merge it, or indicate what further review they deem necessary (and from whom). The intent here is to reduce the number of "approved" PRs which are not merged.
+
+For production code PRs, the default assumption is that at least 2 code owners must approve.
+In the case of very simple changes, a single code owner may choose to merge at their discretion. 
+
+### 2. Other PRs
+
+For PRs which do not modify production code (ie. test, dev tooling), 
+
+The reviewer's job is to check that the PR: 
+
+1. Is correct.
+2. Is desirable. 
+
+After a code owner reviews and approves a PR, they should either merge it, or indicate what further review they deem necessary (and from whom).
 
 ## Code of Conduct
 
