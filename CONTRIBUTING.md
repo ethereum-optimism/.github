@@ -17,7 +17,7 @@ Unless your PR is ready for immediate review and merging, please mark it as 'dra
 
 ## Steps for PR Reviewers
 
-We distinguish between two classes of PR, those wich modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
+We distinguish between two classes of PR, those which modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
 
 ### 1. PRs which modify production code
 
