@@ -4,7 +4,7 @@
 
 🚨 Before making any non-trivial change, please first open an issue describing the change to solicit feedback and guidance. This will increase the likelihood of the PR getting merged.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Please note we have a [Code of Conduct](#code-of-conduct), please follow it in all your interactions with the project.
 
 # Pull Request Process
 
@@ -23,9 +23,13 @@ We aim to provide a meaningful response to all PRs and issues from external cont
 
 We distinguish between two classes of PR, those which modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
 
-In either case: once a code owner has reviewed and approved a PR, they should either merge it, or indicate what further review they deem necessary (and from whom). The intent here is to reduce the number of "approved" PRs which are not merged.
+In either case, once a code owner has reviewed and approved a PR, they should either:
+1. merge it, or
+1. indicate what further review they deem necessary (and from whom).
 
-### 1. PRs which modify production code
+The intent here is to reduce the number of "approved" PRs which are not merged.
+
+### PRs which modify production code
 
 The reviewer's job is to check that the PR:
 
@@ -33,13 +37,13 @@ The reviewer's job is to check that the PR:
 1. Is appropriately tested.
 1. Does not introduce security issues.
 
-#### Production Code Merge Criteria
+#### Merge Criteria
 
 1. All CI checks MUST pass.
 1. At least 2 code owners must approve.
 1. In the case of very simple changes, a single code owner may choose to merge at their discretion.
 
-### 2. Other PRs
+### PRs which modify non-production code
 
 For PRs which do not modify production code (ie. test, dev tooling),
 
@@ -48,7 +52,7 @@ The reviewer's job is to check that the PR:
 1. Is correct.
 1. Is desirable.
 
-#### Non-Production Code Merge Criteria
+#### Merge Criteria
 
 1. All CI checks MUST pass
 1. A single
