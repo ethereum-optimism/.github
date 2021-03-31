@@ -1,5 +1,7 @@
 # Contributing
 
+🎈 Thanks for your help improving the project! We are so happy to have you!
+
 🚨 Before making any non-trivial change, please first open an issue describing the change to solicit feedback and guidance. This will increase the likelihood of the PR getting merged.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
@@ -9,39 +11,48 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Steps for the PR author
 
 1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
-2. Update the README.md if any changes invalidate or extend its current content.
-3. Include tests for any new functionality.
-4. Reference relevant issues in your PR comment.
+1. Update the README.md if your changes invalidate or extend its current content.
+1. Include tests for any new functionality.
+1. Reference relevant issues in your PR comment.
 
 Unless your PR is ready for immediate review and merging, please mark it as 'draft' (or simply do not open a PR yet).
+
+We aim to provide a meaningful response to all PRs and issues from external contributors within 2 business days.
 
 ## Steps for PR Reviewers
 
 We distinguish between two classes of PR, those which modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
 
+In either case: once a code owner has reviewed and approved a PR, they should either merge it, or indicate what further review they deem necessary (and from whom). The intent here is to reduce the number of "approved" PRs which are not merged.
+
 ### 1. PRs which modify production code
 
-The reviewer's job is to check that the PR: 
+The reviewer's job is to check that the PR:
 
 1. Conforms to the specification (WIP, not yet public), or has an issue describing the additional functionality which a code owner has approved.
-2. Is appropriately tested.
-3. Does not introduce security issues.
+1. Is appropriately tested.
+1. Does not introduce security issues.
 
-After a code owner reviews and approves a PR, they should either merge it, or indicate what further review they deem necessary (and from whom). The intent here is to reduce the number of "approved" PRs which are not merged.
+#### Production Code Merge Criteria
 
-For production code PRs, the default assumption is that at least 2 code owners must approve.
-In the case of very simple changes, a single code owner may choose to merge at their discretion. 
+1. All CI checks MUST pass.
+1. At least 2 code owners must approve.
+1. In the case of very simple changes, a single code owner may choose to merge at their discretion.
 
 ### 2. Other PRs
 
-For PRs which do not modify production code (ie. test, dev tooling), 
+For PRs which do not modify production code (ie. test, dev tooling),
 
-The reviewer's job is to check that the PR: 
+The reviewer's job is to check that the PR:
 
 1. Is correct.
-2. Is desirable. 
+1. Is desirable.
 
-After a code owner reviews and approves a PR, they should either merge it, or indicate what further review they deem necessary (and from whom).
+#### Non-Production Code Merge Criteria
+
+1. All CI checks MUST pass
+1. A single
+1. In the case of very simple changes, a single code owner may choose to merge at their discretion.
 
 ## Code of Conduct
 
