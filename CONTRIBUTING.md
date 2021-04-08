@@ -4,6 +4,8 @@
 
 🚨 Before making any non-trivial change, please first open an issue describing the change to solicit feedback and guidance. This will increase the likelihood of the PR getting merged.
 
+In general, the smaller the diff the easier it will be for us to review quickly.
+
 Please note we have a [Code of Conduct](#code-of-conduct), please follow it in all your interactions with the project.
 
 # Pull Request Process
@@ -13,7 +15,7 @@ Please note we have a [Code of Conduct](#code-of-conduct), please follow it in a
 1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
 1. Update the README.md if your changes invalidate or extend its current content.
 1. Include tests for any new functionality.
-1. Reference relevant issues in your PR comment.
+1. Ensure each section of the [Pull Request Template](./PULL_REQUEST_TEMPLATE.md) is filled out.
 
 Unless your PR is ready for immediate review and merging, please mark it as 'draft' (or simply do not open a PR yet).
 
