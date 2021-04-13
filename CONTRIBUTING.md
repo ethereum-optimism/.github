@@ -6,7 +6,7 @@
 
 In general, the smaller the diff the easier it will be for us to review quickly.
 
-Please note we have a [Code of Conduct](#code-of-conduct), please follow it in all your interactions with the project.
+Please note that we have a [Code of Conduct](#code-of-conduct), please follow it in all your interactions with the project.
 
 # Pull Request Process
 
@@ -21,23 +21,29 @@ Unless your PR is ready for immediate review and merging, please mark it as 'dra
 
 We aim to provide a meaningful response to all PRs and issues from external contributors within 2 business days.
 
+We recommend using the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format on commit messages.
+
 ## Steps for PR Reviewers
 
-We distinguish between two classes of PR, those which modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
+### For all PRs
 
-In either case, once a code owner has reviewed and approved a PR, they should either:
-1. merge it, or
-1. indicate what further review they deem necessary (and from whom).
+Reviewers should submit their review with either `Approve` or `Request changes` options (not `Comment`).
 
-The intent here is to reduce the number of "approved" PRs which are not merged.
+If the reviewer selects `Request changes`, they should clearly indicate which changes they require in order to approve.
 
-### PRs which modify production code
+If the reviewer selects `Approves`, they should either:
+1. immediately merge it, or
+2. indicate what further review they deem necessary (and from whom).
+
+We further distinguish between two classes of PR those which modify production code (ie. smart contracts, go-ethereum), and those which do not (ie. dev tooling, test scripts, comments).
+
+### For PRs which modify production code
 
 The reviewer's job is to check that the PR:
 
-1. Conforms to the specification (WIP, not yet public), or has an issue describing the additional functionality which a code owner has approved.
-1. Is appropriately tested.
-1. Does not introduce security issues.
+1. Conforms to the specification (WIP, soon to be published here), or has an issue describing the additional functionality which a code owner has approved.
+2. Is appropriately tested.
+3. Does not introduce security issues.
 
 #### Merge Criteria
 
@@ -45,7 +51,7 @@ The reviewer's job is to check that the PR:
 1. At least 2 code owners must approve.
 1. In the case of very simple changes, a single code owner may choose to merge at their discretion.
 
-### PRs which modify non-production code
+### For PRs which modify non-production code
 
 For PRs which do not modify production code (ie. test, dev tooling),
 
