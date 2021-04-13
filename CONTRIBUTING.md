@@ -15,7 +15,7 @@ Please note we have a [Code of Conduct](#code-of-conduct), please follow it in a
 1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
 1. Update the README.md if your changes invalidate or extend its current content.
 1. Include tests for any new functionality.
-1. Ensure each section of the [Pull Request Template](./PULL_REQUEST_TEMPLATE.md) is filled out.
+1. Ensure each section of the [Pull Request Template](./PULL_REQUEST_TEMPLATE.md) is filled out. Delete any sections that are not relevant.
 
 Unless your PR is ready for immediate review and merging, please mark it as 'draft' (or simply do not open a PR yet).
 
@@ -56,9 +56,8 @@ The reviewer's job is to check that the PR:
 
 #### Merge Criteria
 
-1. All CI checks MUST pass
-1. A single
-1. In the case of very simple changes, a single code owner may choose to merge at their discretion.
+1. All CI checks MUST pass.
+1. At least one code owner must approve.
 
 ## Code of Conduct
 

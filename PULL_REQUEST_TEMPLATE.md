@@ -1,4 +1,6 @@
 <!--
+Please fill in each sections of this template, and delete any sections that are not relevant.
+
 Need help?
 Refer to our contributing guidelines for additional information about making a good pull request:
 https://github.com/ethereum-optimism/.github/blob/master/CONTRIBUTING.md
