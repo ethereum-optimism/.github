@@ -12,6 +12,10 @@ Please note that we have a [Code of Conduct](#code-of-conduct), please follow it
 
 ## Steps for the PR author
 
+We recommend using the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format on commit messages.
+
+Before opening a PR:
+
 1. Ensure that tests pass and code is lint free. You can run `yarn test` and `yarn lint` locally to check.
 1. Update the README.md if your changes invalidate or extend its current content.
 1. Include tests for any new functionality.
@@ -19,9 +23,10 @@ Please note that we have a [Code of Conduct](#code-of-conduct), please follow it
 
 Unless your PR is ready for immediate review and merging, please mark it as 'draft' (or simply do not open a PR yet).
 
-We aim to provide a meaningful response to all PRs and issues from external contributors within 2 business days.
+**Bonus:** Add comments to the diff under the "Files Changed" tab on the PR page to clarify any sections where you think we might have questions about the approach taken.
 
-We recommend using the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format on commit messages.
+### Response time:
+We aim to provide a meaningful response to all PRs and issues from external contributors within 2 business days.
 
 ## Steps for PR Reviewers
 
