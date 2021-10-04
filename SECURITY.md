@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Please see Releases. We recommend to use the most recent released version.  
+Please see Releases. We recommend to use the most recent released version.
 
 ## Disclosing a Vulnerability
 
@@ -15,11 +15,11 @@ The following actions: will disqualify you from eligibility under our forthcomin
 
 ### The right way to disclose
 
-Please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability. 
+Please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability.
 
 ### Bounty Program (coming soon)
 
-We will be launching a bounty program very soon, focused primarily on our deployed [smart contracts](https://github.com/ethereum-optimism/contracts-v2/releases/tag/v0.1.3). Any vulnerability reports received prior to the launch of this program will be considered for a payout within that program.
+We will be launching a bounty program very soon, focused primarily on our deployed [smart contracts](https://github.com/ethereum-optimism/optimism/tree/master/packages/contracts). Any vulnerability reports received prior to the launch of this program will be considered for a payout within that program.
 
 The following key may be used to communicate sensitive information to developers.
 
