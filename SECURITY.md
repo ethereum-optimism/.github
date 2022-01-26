@@ -1,27 +1,25 @@
 # Security Policy
 
-## Supported Versions
-
-Please see Releases. We recommend to use the most recent released version.
-
 ## Disclosing a Vulnerability
 
 ### The wrong way to disclose
 
-The following actions: will disqualify you from eligibility under our forthcoming bug bounty program:
+The following actions will disqualify you from eligibility for a reward:
 
-1. File a public ticket mentioning the vulnerability
-2. Test the vulnerability on the mainnet or testnet
+1. Filing a public ticket mentioning the vulnerability
+2. Testing the vulnerability on the mainnet or testnet
 
-### The right way to disclose
+#### The right way to disclose
 
-Please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability.
+### Smart contracts
 
-### Bounty Program (coming soon)
+We have a bounty program with a maximum payout of $2,000,042. Please see [our bounty program](https://immunefi.com/bounty/optimism/) at Immunefi for more details.
 
-We will be launching a bounty program very soon, focused primarily on our deployed [smart contracts](https://github.com/ethereum-optimism/optimism/tree/master/packages/contracts). Any vulnerability reports received prior to the launch of this program will be considered for a payout within that program.
+### Other vulnerabilities
 
-The following key may be used to communicate sensitive information to developers.
+For vulnerabilities in any of our websites, email servers or other infrastructure, please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability. You may use the PGP key below for additional security when submitting your report.
+
+### PGP key
 
 Fingerprint: `AF4B 924E 3D03 E7B9 AB95  25E5 D3CD 8BD7 64AC E995`
 
