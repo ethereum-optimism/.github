@@ -1,6 +1,6 @@
 # Security Policy
 
-## Disclosing a Vulnerability
+## How to disclose a vulnerability to us
 
 ### The wrong way to disclose
 
@@ -11,34 +11,40 @@ The following actions will disqualify you from eligibility for a reward:
 
 #### The right way to disclose
 
-### Smart contracts
+### Smart contract and infrastructure vulnerabilities
 
 We have a bounty program with a maximum payout of $2,000,042. Please see [our bounty program](https://immunefi.com/bounty/optimism/) at Immunefi for more details.
 
 ### Other vulnerabilities
 
-For vulnerabilities in any of our websites, email servers or other infrastructure, please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability. You may use the PGP key below for additional security when submitting your report.
+For vulnerabilities in any of our websites, email servers or other non-critical infrastructure, please email us at [security@optimism.io](mailto:security@optimism.io). We appreciate detailed instructions for confirming the vulnerability
 
-### PGP key
 
-Fingerprint: `AF4B 924E 3D03 E7B9 AB95  25E5 D3CD 8BD7 64AC E995`
+## How we disclose vulnerabilities
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
+In the event that we learn of a critical security vulnerability, we reserve the right to
+silently fix it without immediately publicly disclosing the existence of nature of the vulnerability.
 
-mFIEXnlZUhMIKoZIzj0DAQcCAwQhuVLb3ZGRJ/EpcvO/02F1PNpcuT6tIw5BhHdt
-xc97gENYp6XrhtemC51M6/igxITiSIhwRvUjuVenVo/fww6RtCVNYXJrIFR5bmV3
-YXkgPG1hcmsudHluZXdheUBnbWFpbC5jb20+iIAEExMIABwFAl55WVICCwkCGwME
-FQgJCgQWAgMBAheAAh4BABYJENPNi9dkrOmVCxpUUkVaT1ItR1BHrDoA/00pjZ58
-d0DoAmQs8Qnytkwyiewk+l5gUwGGgL1PzXj1AP9VPARuoWOMMlxItVExaTmD0y6e
-a1rc21ANUAoBa53T77hWBF55WVISCCqGSM49AwEHAgME+UsSeTWeDdE1MJjJwZKS
-xGHLkzRp5gcL9i1qETII3mVAQwIx+vZ/vn2XsXGBgLSoGQLIEDix8wKPbc77G8MR
-LQMBCAeIbQQYEwgACQUCXnlZUgIbDAAWCRDTzYvXZKzplQsaVFJFWk9SLUdQR+4Q
-AP4gAyKnTCX7xRn6JxSsreiihfqJ9GyEz7eYYobg5m4J8AD/TNlbgcARCIc28BEy
-uTRoTkujtMVATibXMnY7++xRXbc=
-=Q/dE
------END PGP PUBLIC KEY BLOCK-----
+In such a scenario we will:
 
-```
+1. silently fix a vulnerability and include the fix in release X,
+2. after 4-8 weeks, we will disclose that X contained a security-fix,
+3. after an additional 4-8 weeks, we will publish details of the vulnerability.
 
-Copy the above key to a file and use the command `gpg --import <file>` to import the key into the gpg keyring.
+Alongside this policy, we also reserve the right to do either of the following:
+- bypass this policy and publish details on a shorter timeline
+- to directly notify a subset of downstream users prior to making a public announcement
+
+This policy is based the Geth team’s [silent patch policy](https://geth.ethereum.org/docs/vulnerabilities/vulnerabilities#why-silent-patches).
+
+### Defensive measures during an incident
+
+Our system does not currently have fault proofs, meaning we are able to pause the system in an
+emergency.
+
+We've established some guiding criteria for disabling the system during an incident response
+situation:
+
+- If an attack is ongoing: we should disable or pause in order to prevent further damage.
+- If we suspect that a vulnerability might be widely known: we should disable or pause proactively.
+- Otherwise: we should not disable or pause the system.
