@@ -29,7 +29,7 @@ In such a scenario we will:
 
 1. silently fix a vulnerability and include the fix in release X,
 2. after 4-8 weeks, we will disclose that X contained a security-fix,
-3. after an additional 4-8 weeks, we will publish details of the vulnerability.
+3. after an additional 4-8 weeks, we will publish details of the vulnerability along with credit to the reporter (with express permission from the reporter).
 
 Alongside this policy, we also reserve the right to do either of the following:
 - bypass this policy and publish details on a shorter timeline
