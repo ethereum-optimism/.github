@@ -17,4 +17,11 @@ For changes to critical code paths, please list and describe the invariants or k
 Add any other context about the problem you're solving.
 
 **Metadata**
+
 - Fixes #[Link to Issue]
+
+**TODOs**
+
+- [ ] Author or reviewer has added an entry to the [current release notes draft][RND], if appropriate.
+
+[RND]: https://www.notion.so/oplabs/ded30107ceec41c88817e60322aa8d0a?v=b4a22cedb85a46a38c9be14e7c984953&pvs=4 "Release Notes"
