@@ -1,4 +1,4 @@
-# Security Policy
+## Security Policy
 
 ## How to disclose a vulnerability to us
 
