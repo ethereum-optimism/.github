@@ -3,7 +3,7 @@ description: High level issue for tracking a project.
 title: "Project: "
 labels: ["Project"]
 body:
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       value: High level description of project. A breif description of what the project. Why do we have this project, what are its goals.
@@ -21,6 +21,7 @@ body:
   - type: checkboxes
     id: label-check
     attributes:
+      label: Label Checks
       options:
         - label: I have added the team label for this project (CH, TH, Contributions).
           required: true
