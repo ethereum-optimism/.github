@@ -12,8 +12,8 @@ body:
   - type: markdown
     id: dependancies & blockers
     attributes:
-      label: Dependancies and blockers of this project. 
       value: | 
+        Dependancies and blockers of this project. 
         @legal needs to sign off by 2 OCT 2023 11:00 UTC.
         This project is blocked by issue #34 from project #25. 
     validations:
@@ -21,7 +21,6 @@ body:
   - type: checkboxes
     id: label-check
     attributes:
-      label: Label Checks
       options:
         - label: I have added the team label for this project (CH, TH, Contributions).
           required: true
@@ -30,8 +29,8 @@ body:
   - type: markdown
     id: Tasks
     attributes:
-      label: Tasks for this project
       value: | 
+        Tasks for this project
         #34 Planning & scoping the project.
         #35 Coordinating with involved teams for sign off. 
     validations:
