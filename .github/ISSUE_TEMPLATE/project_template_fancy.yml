@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-      id: lable check
+      id: lable-check
       options:
         - label: I have added the team label for this project (CH, TH, Contributions).
           required: true
