@@ -6,7 +6,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      value: High level description of project. A breif description of what the project. Why do we have this project, what are its goals.
+      label: High level description of project.
+      value: A breif description of what the project. Why do we have this project, what are its goals.
     validations:
       required: true
   - type: markdown
