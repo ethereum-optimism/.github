@@ -20,10 +20,14 @@ body:
     validations:
       required: true
   - type: checkboxes
+    id: label-check
+    attributes:
+      label: Label Checks
       options:
         - label: I have added the team label for this project (CH, TH, Contributions).
           required: true
         - label: I have added the timeline for this project to the issue.
+          required: true
   - type: markdown
     id: Tasks
     attributes:
