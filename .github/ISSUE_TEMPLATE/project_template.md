@@ -1,26 +1,23 @@
 # Project Overivew
 
-A breif description of what the project. 
-
-## Links
-<!-- Please include any additional links or resources pertinent to the project. -->
-
-- [Link to Marketing campaign doc](link here)
-- [Optimism Brand guidelines](https://www.figma.com/file/uMkvPOrBZdOW0Petpewen8/Brand-Guidelines---Contractors?type=design&node-id=0-1&mode=design&t=4Fo3xAisal1iqoi2-0)
-
-## Design
-📌 [Working Figma](link here) — let's use thise Figma to share concepts and share final design deliverables
-
-🔴 Optimism Design DRI: _(to be filled out by our team)_
-
-Please cc the design DRI in Slack if you are sharing important updates; they will be responsible for giving design feedback and unblocking you when necessary :)
-
-## Deliverables
-<!-- If relevant, please list out the design deliverables included in the scope of work. You can edit this issue if something changes. -->
-
-- [ ] Item 1
-- [ ] Item 2
-- [ ] etc
+A breif description of what the project. Why do we have this project, what are its goals. Remember to add the "Project" label to this issue. 
 
 ## Timeline
-<!-- Please include the date that design assets need to be delivered by. -->
+
+Start and finish date.
+Remember that projects MUST take more than 6 weeks to complete. Anything shorter than that is an issue, not a project. 
+Remeber to also put the timeline in the timeline feild (somewhere to the right of this). 
+
+## Dependancies & Blockers 
+
+### Signoffs Required
+
+i.e @legal needs to sign off by [date & time]. 
+
+### Dependancies 
+
+Links to projects or issues that are blocking for this project, that are NOT a part of this project. 
+
+## Issues
+
+Links to all the issues needed to complete this project.
