@@ -1,23 +1,23 @@
-**name:** Epic Template
-  **description:** High level issue for tracking an Epic.
-  **title:** "Epic: "
-  **labels:** ["Epic"]
-  **body:**
-    - type: textarea
-      id: description
-      attributes:
-        label: High level description of Epic.
-        value: A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
+name: Epic Template  # Ensure no extra characters before "name"
+description: High level issue for tracking an Epic.
+title: "Epic: "
+labels: ["Epic"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: High level description of Epic.
+      value: A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
       validations:
         required: true
-    - type: markdown
-      id: user stories
-      attributes:
-        label: User Stories
-        value: |
-          List of User Stories associated with this Epic. 
-          * User Story 1: (brief description)
-          * User Story 2: (brief description)
+  - type: markdown
+    id: user stories
+    attributes:
+      label: User Stories
+      value: |
+        List of User Stories associated with this Epic. 
+        * User Story 1: (brief description)
+        * User Story 2: (brief description)
     - type: markdown
       id: acceptance criteria
       attributes:
@@ -33,8 +33,8 @@
         value: | 
           List any Pull Requests (PRs) related to this Epic. 
           Describe any dependencies and potential blockers for the Epic.
-          @legal needs to sign off by 2 OCT 2023 11:00 UTC.
-          This Epic is blocked by issue #34. 
+          Example: We are working on smart contract changes in order to deliver a new feature to our users
+          Or This Epic is blocked by issue #34. 
       validations:
         required: true
     - type: markdown
