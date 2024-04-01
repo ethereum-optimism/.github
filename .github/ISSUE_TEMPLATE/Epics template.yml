@@ -1,49 +1,59 @@
-name: Epic Template  # Descriptive name for this template
-description: High-level issue for tracking an Epic.  # Improved readability with hyphen
-title: "Epic: "  # Consistent quote style
+name: Epic Template  # Ensure no extra characters before "name"
+description: High level issue for tracking an Epic.
+title: "Epic: "
+labels: ["Epic"]
 body:
   - type: textarea
     id: description
-    label: Description  # Clear and concise label
-    value: |  # Placeholder for description
-      A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
+    attributes:
+      label: High level description of Epic.
+      value: A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
+      validations:
+        required: true
   - type: markdown
-    id: user_stories
-    label: User Stories  # Consistent capitalization
-    value: |  # Placeholder for user stories
-      List of User Stories associated with this Epic. 
-      * User Story 1: (brief description)
-      * User Story 2: (brief description)
+    id: user stories
+    attributes:
+      label: User Stories
+      value: |
+        List of User Stories associated with this Epic. 
+        * User Story 1: (brief description)
+        * User Story 2: (brief description)
   - type: markdown
-    id: acceptance_criteria
-    label: Acceptance Criteria  #Consistent capitalization
-    value: |  #Placeholder for acceptance criteria
-      Define the criteria for considering the Epic complete. 
-      * Acceptance Criteria 1
-      * Acceptance Criteria 2
+    id: acceptance criteria
+    attributes:
+      label: Acceptance Criteria
+      value: |
+        Define the criteria for considering the Epic complete. 
+        * Acceptance Criteria 1
+        * Acceptance Criteria 2
   - type: markdown
-    id: prs_dependencies_blockers
-    label: PRs, Dependencies, and Blockers
-    value: |  # Placeholder for PRs, dependencies, and blockers
-      List any Pull Requests (PRs) related to this Epic. 
-      Describe any dependencies and potential blockers for the Epic.
-      Example: We are working on smart contract changes in order to deliver a new feature to our users.
-      Or This Epic is blocked by issue #34. 
+    id: prs-dependencies-blockers
+    attributes:
+      label: PRs, Dependencies and potential blockers of this Epic
+      value: |
+        List any Pull Requests (PRs) related to this Epic. 
+        Describe any dependencies and potential blockers for the Epic.
+        Example: We are working on smart contract changes in order to deliver a new feature to our users.
+        Or This Epic is blocked by issue #34. 
+      validations:
+        required: true
   - type: markdown
-    id: related_issues
-    label: Related Issues (Checklist)  # Consistent capitalization and hyphen
-    value: |  # Placeholder for related issues
-      **Checklist:**
-      - [ ] Issue #1: (brief description)
-      - [ ] Issue #2: (brief description)
-      - [ ] You can add more issues here following the same format.
+    id: related issues
+    attributes:
+      label: Related Issues (Checklist)
+      value: |
+        **Checklist:**
+        - [ ] Issue #1: (brief description)
+        - [ ] Issue #2: (brief description)
+        - [ ] You can add more issues here following the same format.
 
-      **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
+        **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
   - type: checkboxes
-    id: label_check
-    label: Label Checks  # Consistent capitalization
-    options:
-      - label: I have added the team label(s) for this Epic.
-      - label: I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
-validations:
-  required: true
+    id: label-check
+    attributes:
+      label: Label Checks
+      options:
+        - label: I have added the team label(s) for this Epic.
+          required: true
+        - label: I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
+          required: false
