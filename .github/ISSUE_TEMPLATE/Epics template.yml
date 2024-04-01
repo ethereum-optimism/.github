@@ -1,4 +1,4 @@
-name: Epic Template  # Descriptive name for the template
+name: Epic Template  # Descriptive name for this template
 description: High-level issue for tracking an Epic.  # Improved readability with hyphen
 title: "Epic: "  # Consistent quote style
 body:
