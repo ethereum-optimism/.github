@@ -16,14 +16,14 @@ body:
       * User Story 2: (brief description)
   - type: markdown
     id: acceptance_criteria
-    label: Acceptance Criteria  # Consistent capitalization
-    value: |  # Placeholder for acceptance criteria
+    label: Acceptance Criteria  #Consistent capitalization
+    value: |  #Placeholder for acceptance criteria
       Define the criteria for considering the Epic complete. 
       * Acceptance Criteria 1
       * Acceptance Criteria 2
   - type: markdown
     id: prs_dependencies_blockers
-    label: PRs, Dependencies, and Blockers  # Consistent capitalization and comma
+    label: PRs, Dependencies, and Blockers
     value: |  # Placeholder for PRs, dependencies, and blockers
       List any Pull Requests (PRs) related to this Epic. 
       Describe any dependencies and potential blockers for the Epic.
