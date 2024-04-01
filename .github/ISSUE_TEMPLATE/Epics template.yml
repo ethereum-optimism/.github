@@ -5,22 +5,22 @@ labels: ["Epic"]
 body:
   - type: textarea
     id: description
-    attributes:
+      attributes:
       label: High level description of Epic.
       value: A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
       validations:
         required: true
   - type: markdown
     id: user stories
-    attributes:
+      attributes:
       label: User Stories
       value: |
         List of User Stories associated with this Epic. 
         * User Story 1: (brief description)
         * User Story 2: (brief description)
-    - type: markdown
+   - type: markdown
       id: acceptance criteria
-      attributes:
+        attributes:
         label: Acceptance Criteria
         value: |
           Define the criteria for considering the Epic complete. 
@@ -28,7 +28,7 @@ body:
           * Acceptance Criteria 2
     - type: markdown
       id: prs-dependencies-blockers
-      attributes:
+        attributes:
         label: PRs, Dependencies and potential blockers of this Epic
         value: | 
           List any Pull Requests (PRs) related to this Epic. 
@@ -39,7 +39,7 @@ body:
         required: true
     - type: markdown
       id: related issues
-      attributes:
+        attributes:
         label: Related Issues (Checklist)
         value: |
           **Checklist:**
@@ -50,7 +50,7 @@ body:
           **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
     - type: checkboxes
       id: label-check
-      attributes:
+        attributes:
         label: Label Checks
         options:
           - label: I have added the team label(s) for this Epic.
