@@ -1,33 +1,37 @@
-name: Epic Template  # Ensure no extra characters before "name"
-description: High level issue for tracking an Epic.
-title: "Epic: "
-labels: ["Epic"]
+name: Epic Template  # Descriptive name for the template
+description: High-level issue for tracking an Epic.  # Improved readability with hyphen
+title: "Epic: "  # Consistent quote style
 body:
   - type: textarea
     id: description
+    label: Description  # Clear and concise label
     value: |  # Placeholder for description
       A brief description of the Epic. What problem are we trying to solve? What value will it deliver?
   - type: markdown
-    id: user stories
+    id: user_stories
+    label: User Stories  # Consistent capitalization
     value: |  # Placeholder for user stories
       List of User Stories associated with this Epic. 
       * User Story 1: (brief description)
       * User Story 2: (brief description)
   - type: markdown
-    id: acceptance criteria
+    id: acceptance_criteria
+    label: Acceptance Criteria  # Consistent capitalization
     value: |  # Placeholder for acceptance criteria
       Define the criteria for considering the Epic complete. 
       * Acceptance Criteria 1
       * Acceptance Criteria 2
   - type: markdown
-    id: prs-dependencies-blockers
+    id: prs_dependencies_blockers
+    label: PRs, Dependencies, and Blockers  # Consistent capitalization and comma
     value: |  # Placeholder for PRs, dependencies, and blockers
       List any Pull Requests (PRs) related to this Epic. 
       Describe any dependencies and potential blockers for the Epic.
       Example: We are working on smart contract changes in order to deliver a new feature to our users.
       Or This Epic is blocked by issue #34. 
   - type: markdown
-    id: related issues
+    id: related_issues
+    label: Related Issues (Checklist)  # Consistent capitalization and hyphen
     value: |  # Placeholder for related issues
       **Checklist:**
       - [ ] Issue #1: (brief description)
@@ -36,10 +40,10 @@ body:
 
       **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
   - type: checkboxes
-    id: label-check
-    value: |  # Descriptive text for checkbox section
-      **Label Checks:**
-      - [ ] I have added the team label(s) for this Epic.
-      - [ ] I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
-validations:  # Moved validations to top-level
+    id: label_check
+    label: Label Checks  # Consistent capitalization
+    options:
+      - label: I have added the team label(s) for this Epic.
+      - label: I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
+validations:
   required: true
