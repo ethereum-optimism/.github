@@ -18,42 +18,42 @@ body:
         List of User Stories associated with this Epic. 
         * User Story 1: (brief description)
         * User Story 2: (brief description)
-   - type: markdown
-     id: acceptance criteria
-     attributes:
-        label: Acceptance Criteria
-        value: |
-          Define the criteria for considering the Epic complete. 
-          * Acceptance Criteria 1
-          * Acceptance Criteria 2
-    - type: markdown
-      id: prs-dependencies-blockers
-      attributes:
-        label: PRs, Dependencies and potential blockers of this Epic
-        value: | 
-          List any Pull Requests (PRs) related to this Epic. 
-          Describe any dependencies and potential blockers for the Epic.
-          Example: We are working on smart contract changes in order to deliver a new feature to our users
-          Or This Epic is blocked by issue #34. 
+  - type: markdown
+    id: acceptance criteria
+    attributes:
+      label: Acceptance Criteria
+      value: |
+        Define the criteria for considering the Epic complete. 
+        * Acceptance Criteria 1
+        * Acceptance Criteria 2
+  - type: markdown
+    id: prs-dependencies-blockers
+    attributes:
+      label: PRs, Dependencies and potential blockers of this Epic
+      value: |
+        List any Pull Requests (PRs) related to this Epic. 
+        Describe any dependencies and potential blockers for the Epic.
+        Example: We are working on smart contract changes in order to deliver a new feature to our users.
+        Or This Epic is blocked by issue #34. 
       validations:
         required: true
-    - type: markdown
-      id: related issues
-      attributes:
-        label: Related Issues (Checklist)
-        value: |
-          **Checklist:**
-          - [ ] Issue #1: (brief description)
-          - [ ] Issue #2: (brief description)
-          - [ ] You can add more issues here following the same format.
+  - type: markdown
+    id: related issues
+    attributes:
+      label: Related Issues (Checklist)
+      value: |
+        **Checklist:**
+        - [ ] Issue #1: (brief description)
+        - [ ] Issue #2: (brief description)
+        - [ ] You can add more issues here following the same format.
 
-          **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
-    - type: checkboxes
-      id: label-check
-      attributes:
-        label: Label Checks
-        options:
-          - label: I have added the team label(s) for this Epic.
-            required: true
-          - label: I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
-            required: false
+        **Note:** This checklist is for informational purposes only. You will need to manage the state of the issues manually.
+  - type: checkboxes
+    id: label-check
+    attributes:
+      label: Label Checks
+      options:
+        - label: I have added the team label(s) for this Epic.
+          required: true
+        - label: I have linked this Epic to its corresponding Project(s). (optional, adjust as needed)
+          required: false
