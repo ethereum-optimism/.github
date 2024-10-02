@@ -3,7 +3,7 @@ name: Schedule Design Review
 about: Get buy in on a design
 title: ''
 labels: ''
-assignees: ''
+assignees: 'op-aaron'
 
 ---
 
@@ -17,9 +17,10 @@ Refer to the design review meeting guidelines: https://github.com/ethereum-optim
 One sentence overview of the meeting
 -->
 
-**Date and Time**
+**Date, Time and Duration**
 <!--
-Condier using https://www.worldtimebuddy.com/ to help schedule
+Consider using https://www.worldtimebuddy.com/ to help schedule
+Meetings default to 30 minutes, please ask for more if necessary
 -->
 
 **Link to design doc**
