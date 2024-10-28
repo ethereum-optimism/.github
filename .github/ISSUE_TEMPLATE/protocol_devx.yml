@@ -1,0 +1,11 @@
+name: Protocol DevX Papercut
+description: Small improvements to the OP Stack protocol developer experience
+title: "Brief title"
+labels: ["protocol-devx"]
+projects: [“ethereum-optimism/58”, “ethereum-optimism/97”]
+body:
+  - type: textarea
+    id: papercut-description
+    attributes:
+      label: Description
+      placeholder: Describe what small improvement would make the day-to-day OP Stack protocol developer experience better. Please include what component / tool it is for, what the improvement is and what pain point it solves.
