@@ -2,7 +2,7 @@ name: Protocol DevX Papercut
 description: Small improvements to the OP Stack protocol developer experience
 title: "Brief title"
 labels: ["protocol-devx"]
-projects: [“ethereum-optimism/97”]
+projects: ["ethereum-optimism/97"]
 body:
   - type: textarea
     id: papercut-description
