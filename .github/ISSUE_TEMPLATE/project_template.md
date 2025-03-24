@@ -10,7 +10,7 @@ A breif description of what the project. Why do we have this project, what are i
 
 Start and finish date.
 Remember that projects MUST take more than 6 weeks to complete. Anything shorter than that is an issue, not a project. 
-Remeber to also put the timeline in the timeline feild (somewhere to the right of this). 
+Remeber to also put the timeline in the timeline field (somewhere to the right of this). 
 
 ## Dependancies & Blockers 
 
