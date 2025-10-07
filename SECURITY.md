@@ -17,7 +17,8 @@ We have a bounty program with a maximum payout of $2,000,042. Please see [our bo
 
 ### Other vulnerabilities
 
-For vulnerabilities in any of our websites, email servers or other non-critical infrastructure, please email OP Labs at [security@oplabs.co](mailto:security@oplabs.co). We and Labs appreciate detailed instructions for confirming the vulnerability.
+For vulnerabilities in any of our websites or other non-critical infrastructure, please see [our bounty program](https://immunefi.com/bounty/optimism/)
+at Immunefi for more details. This category of findings has a maximum payout of $50,000
 
 
 ## How we disclose vulnerabilities
